@@ -2,8 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
   
   }
@@ -14,15 +14,16 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    margin: 0px;
     background: ${props => props.theme['blue-100']};
   }
-
-  button {
-    font-family: 'Roboto', monospace;
-    background-color: ${props => props.theme['blue-200']};
-    border-style: none;
-    color: ${props => props.theme['white']};
-    text-transform: uppercase;
+  ul, nav{
+    margin: 0px;
+    list-style: none;
   }
+  a {
+    text-decoration: none;
+  }
+
 
 `
