@@ -5,12 +5,6 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-  
-  }
-  
-  :focus {
-    outline: 0;
-    box-shadow: 0 0 0 2px ${props => props.theme['blue-100']};
   }
 
   body {
@@ -31,6 +25,8 @@ export const GlobalStyle = createGlobalStyle`
       border-style: none;
       color: ${props => props.theme['white']};
       text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.12rem;
   }
 
 `

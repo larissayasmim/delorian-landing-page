@@ -1,23 +1,28 @@
 import { IntroductionContainerBg, IntroductionContainer, InfoContainer, ImagesContainer } from "./StyleIntroduction";
-// import portao from "../../assets/portão.svg";
-// import motor from "../../assets/motor.svg";
 import portaoeMotor from "../../assets/portaoeMotor.png"
+
+
 export function Introduction() {
+
+  const phoneNumberWhatsapp = '+554185011909'; // Coloque seu número aqui
+
+  const handleClickMakeBudget = () => {
+    // Constrói o link para o WhatsApp
+    const whatsappLink = `https://wa.me/${phoneNumberWhatsapp}?text=Olá,%20equipe%20Delorian,%20gostaria%20de%20fazer%20um%20orçamento!`;
+    window.open(whatsappLink, '_blank'); 
+  }
   return (
 
     <IntroductionContainerBg>
       <IntroductionContainer>
         <InfoContainer>
-          <h1>Automação e Manutenção <br/>de Portões</h1>
+          <h1>Automação e manutenção <br/>de portões</h1>
           <p>Instalação, conserto e eficiência.<br/>Solicite seu orçamento grátis!</p>
-          <button>Fazer orçamento</button>
+          <button onClick={handleClickMakeBudget}>Fazer orçamento</button>
         </InfoContainer> 
         
         <ImagesContainer>
-          {/* <img src={portao} alt="Imagem de um portão de grade cinza claro eletrônico" className="portaoImage" />
-          <img src={motor} alt="Imagem de um motor de portão eletrônico" className="motorImage"/> */}
           <img src={portaoeMotor} alt="Imagem de um motor de portão eletrônico" className="motorImage"/>
-
         </ImagesContainer>
       
       </IntroductionContainer>
