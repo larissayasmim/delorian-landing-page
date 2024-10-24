@@ -1,0 +1,158 @@
+import styled from "styled-components";
+
+export const CreditCardBrandsContainer = styled.div`
+
+max-width: 1300px;
+margin: 0 auto;
+padding: 0 3rem;
+
+
+.wrapper {
+  position: relative;
+  height: 120px;
+  overflow: hidden;
+  mask-image: linear-gradient(
+   to right,
+   rgba(0, 0, 0, 0),
+   rgba(0, 0, 0, 1) 20%,
+   rgba(0, 0, 0, 1) 80%,
+   rgba(0, 0, 0, 0)
+ ); 
+}
+
+@keyframes scrollLeft {
+ to {
+   left: -200px;
+ }
+}
+
+.item {
+  width: 240px;
+  border: solid 1px ${props => props.theme['grey-130']};
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.8rem;
+  position: absolute;
+  left: max(calc(200px * 8), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.item1 {
+ animation-delay: calc(30s / 6 * (8 - 1) * -1);
+}
+
+
+.item2 {
+ animation-delay: calc(30s / 6 * (8 - 2) * -1);
+}
+
+
+.item3 {
+ animation-delay: calc(30s / 6 * (8 - 3) * -1);
+}
+
+
+.item4 {
+ animation-delay: calc(30s / 6 * (8 - 4) * -1);
+}
+
+
+.item5 {
+ animation-delay: calc(30s / 6 * (8 - 5) * -1);
+}
+
+
+.item6 {
+ animation-delay: calc(30s / 6 * (8 - 6) * -1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper2 {
+  position: relative;
+  height: 150px;
+  overflow: hidden;
+  mask-image: linear-gradient(
+   to right,
+   rgba(0, 0, 0, 0),
+   rgba(0, 0, 0, 1) 20%,
+   rgba(0, 0, 0, 1) 80%,
+   rgba(0, 0, 0, 0)
+ ); 
+}
+
+@keyframes scrollLeft2 {
+ to {
+   right: -300px;
+ }
+}
+.itemW2 {
+  width: 240px;
+  border: solid 1px ${props => props.theme['grey-130']};
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.8rem;
+  position: absolute;
+  right: max(calc(200px * 8), 100%);
+  animation-name: scrollLeft2;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+.item7 {
+ animation-delay: calc(30s / 6 * (8 - 1) * -1);
+}
+
+
+.item8 {
+ animation-delay: calc(30s / 6 * (8 - 2) * -1);
+}
+
+
+.item9 {
+ animation-delay: calc(30s / 6 * (8 - 3) * -1);
+}
+
+
+.item10 {
+ animation-delay: calc(30s / 6 * (8 - 4) * -1);
+}
+
+
+.item11 {
+ animation-delay: calc(30s / 6 * (8 - 5) * -1);
+}
+
+
+.item12 {
+ animation-delay: calc(30s / 6 * (8 - 6) * -1);
+}
+
+
+`
+ 

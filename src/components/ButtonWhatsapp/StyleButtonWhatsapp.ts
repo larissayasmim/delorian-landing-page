@@ -4,8 +4,8 @@ export const ButtonWhatsappContainer = styled.div`
   .whatsappIconFixed {
     position: fixed;
     padding: 5px;
-      bottom: 30px; 
-      right: 30px;
+      bottom: 16px; 
+      right: 20px;
       width: 70px; 
       height: 70px;
       cursor: pointer;

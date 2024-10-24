@@ -6,15 +6,18 @@ export const IntroductionContainerBg = styled.main`
 
   img {
     max-width: 100%;
-    width: 700px;
+    width: 880px;
     object-fit: cover;
     display: block;
+    padding-top: 7rem;
+    height: 880px;
+    margin-left: 15rem;
   };
 `
 
 export const IntroductionContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   box-sizing: border-box;
   max-width: 1605px;
   margin: 0 auto;
@@ -74,19 +77,6 @@ export const InfoContainer = styled.div`
   };
 
 `
-
-
-export const ImagesContainer = styled.div`
-  img {
-    /* object-fit: cover; */
-    padding-top: 5rem;
-    height: 850px;
-    margin-left: 9.9rem;
-  };
-
-`
-
-
 
 
 

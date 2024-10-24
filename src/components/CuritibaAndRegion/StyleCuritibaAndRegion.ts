@@ -10,7 +10,7 @@ export const CuritibaContainer = styled.div`
 
     margin-bottom: 9rem;
     z-index: 1;
-    margin-top: -15rem;
+    margin-top: -16rem;
 
    h2 {
       font-family: 'Poppins', sans-serif;
@@ -49,11 +49,11 @@ export const CuritibaContainer = styled.div`
    }
 
    img {
-    width: 100%;
+    width:40rem;
     height: 30rem;
     justify-items: start;
     padding-top: 2rem;
     padding-right: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
    }
 `

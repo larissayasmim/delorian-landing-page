@@ -36,13 +36,13 @@ export function Footer () {
       <div className="delorianResolve">
    
         <h3><Link to="#delorianResolve" smooth={true} duration={500} offset={-80} className="delorianResolveTitle">Delorian resolve</Link></h3>
-        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Instalação de motor em portões</Link></a>
-        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Motor não funcionando</Link></a>
-        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Motor sem força</Link></a>
-        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Motor indo só para um lado</Link></a>
-        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Motor barulhento</Link></a>
-        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Portão batendo</Link></a>
-        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Cadastro de controles</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} offset={-80}>Instalação de motor em portões</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} offset={-80}>Motor não funcionando</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} offset={-80}>Motor sem força</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} offset={-80}>Motor indo só para um lado</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} offset={-80}>Motor barulhento</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} offset={-80}>Portão batendo</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} offset={-80}>Cadastro de controles</Link></a>
       </div>
 
       <div className="horarioFuncionamento">
