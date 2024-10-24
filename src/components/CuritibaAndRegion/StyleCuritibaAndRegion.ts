@@ -5,11 +5,10 @@ export const CuritibaContainer = styled.div`
     margin: 0 auto;
     background: ${props => props.theme['grey-200']};
     border-radius: 50px;
-
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
 
-    margin-bottom: 14rem;
+    margin-bottom: 9rem;
     z-index: 1;
     margin-top: -15rem;
 

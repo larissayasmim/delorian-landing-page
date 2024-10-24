@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const EngineBrandsContainer = styled.div`
   width: 100%;
-  background-image: url('src/assets/retangulo.png'); /* Defina a URL da sua imagem */
-  background-size: cover; /* Faz a imagem preencher todo o contêiner */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
-  /* background-size: 2000px 600px; */
-  height: 660px;
+  background-image: url('src/assets/retangulo.png'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding: 0 3rem;
+  height: 670px;
 
   .title {
     max-width: 1605px;
@@ -33,9 +33,16 @@ export const EngineBrandsContainer = styled.div`
     grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-items: center;
-    gap: 2rem;
+    gap: 1rem;
     padding-top: 5rem;
 
+  }
+
+  .peccininLogo, .garenLogo {
+    justify-self: flex-start;
+  }
+   .niceLogo, .rossiLogo{
+    justify-self: flex-end;
   }
 
 `

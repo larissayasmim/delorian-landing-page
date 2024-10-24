@@ -1,22 +1,48 @@
 import { DireitosReservadosContainer, FooterContainer } from "./StyleFooter";
 import logoDelorian from "../../assets/logoDelorian.png";
+import whatsIconFooter from "../../assets/whatsIconFooter.svg";
+import facebookIconFooter from "../../assets/facebookIconFooter.svg";
+import instagramIconFooter from "../../assets/instagramIconFooter.svg";
+import cop from "../../assets/cop.svg";
+import { Link } from "react-scroll";
+
 
 export function Footer () {
+    const phoneNumber = '+554185011909'; // Coloque seu número aqui
+
+    const handleRedirectWhatsapp = () => {
+    
+      const whatsappLink = `https://wa.me/${phoneNumber}?text=Olá,%20equipe%20Delorian,%20gostaria%20de%20mais%20informações!`;
+      window.open(whatsappLink, '_blank'); 
+    }
+
+    const handleRedirectInstagram = () => {
+      window.open("https://www.instagram.com/delorianpro/", "_blank");
+    };
+
+    const handleRedirectFacebook = () => {
+      window.open("https://www.facebook.com/delorianpro", "_blank");
+    };
+  
+    const currentYear = new Date().getFullYear();
+   
+    
   return (
     <div>
     <FooterContainer>
 
-      <a href="./"><img src={logoDelorian} /></a>
+     <Link to="#voltarInicio" smooth={true} duration={500} offset={-80} ><img src={logoDelorian} /></Link>
 
       <div className="delorianResolve">
-        <h3>Delorian resolve</h3>
-        <a href="">Instalação de motor em Portões</a>
-        <a href="">Motor Não Funcionando</a>
-        <a href="">Motor Sem Força</a>
-        <a href="">Motor Indo Só para Um Lado</a>
-        <a href="">Motor Barulhento</a>
-        <a href="">Portão Batendo</a>
-        <a href="">Cadastro de Controles</a>
+   
+        <h3><Link to="#delorianResolve" smooth={true} duration={500} offset={-80} className="delorianResolveTitle">Delorian resolve</Link></h3>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Instalação de motor em portões</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Motor não funcionando</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Motor sem força</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Motor indo só para um lado</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Motor barulhento</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Portão batendo</Link></a>
+        <a href=""><Link to="#delorianResolve" smooth={true} duration={500} >Cadastro de controles</Link></a>
       </div>
 
       <div className="horarioFuncionamento">
@@ -28,30 +54,23 @@ export function Footer () {
 
       <div className="faleConosco">
         <h3>Fale conosco</h3>
-        
-        <div className="whatsapp">
-          <a href=""><img src="" alt="" /><p> (41) 9 8501 - 1909</p></a>
-        </div>
-
-        <div className="facebook">
-          <a href=""><img src="" alt="" /><p> @delorianpro</p></a>
-        </div>
-        <div className="instagram">
-          <a href=""><img src="" alt="" /><p> @delorianpro</p></a>
-        </div>
+          <a href="" onClick={handleRedirectWhatsapp}><p className="whatsapp"><img src={whatsIconFooter} />(41) 9 8501-1909</p></a>
+          <a href="" onClick={handleRedirectFacebook}><p className="facebook"><img src={facebookIconFooter} /> @delorianpro</p></a>
+          <a href="" onClick={handleRedirectInstagram}><p className="instagram"><img src={instagramIconFooter} /> @delorianpro</p></a>
       </div>
+    
     </FooterContainer>
 
     <DireitosReservadosContainer>
-      <div>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+      <div className="redesSociais">
+        <a href="" onClick={handleRedirectWhatsapp}><img src={whatsIconFooter} /></a>
+        <a href="" onClick={handleRedirectFacebook}><img src={facebookIconFooter} /></a>
+        <a href="" onClick={handleRedirectInstagram}><img src={instagramIconFooter} /></a>
       </div>
 
-      <div>
-        <img src="" alt="" />
-        <p>2024 Delorian - Todos os direitos reservados</p>
+      <div className="direitosReservados">
+        <img src={cop} alt="" />
+        <p>{currentYear} Delorian - Todos os direitos reservados</p>
       </div>
     </DireitosReservadosContainer>
     </div>

@@ -6,6 +6,7 @@ export const FreeQuoteContainer = styled.div`
     margin-bottom: 8rem;
     display: flex;
     align-items: center;
+    padding:0 3rem;
 
 
     div {

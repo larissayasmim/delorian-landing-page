@@ -1,5 +1,5 @@
 import { CallDelorianContent } from "./StyleCallDelorian";
-import chamaDelorian from "../../assets/chamaDelorian.png";
+import chamaDelorian from "../../assets/chamaDelorian.svg";
 import moto from "../../assets/moto.png";
 
 

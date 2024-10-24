@@ -18,6 +18,8 @@ export const IntroductionContainer = styled.div`
   box-sizing: border-box;
   max-width: 1605px;
   margin: 0 auto;
+  padding: 0 3rem;
+  
   
 
  
@@ -43,7 +45,7 @@ export const InfoContainer = styled.div`
   };
 
   p {
-    font-family: 'Roboto' monospace;
+    font-family: 'Roboto', monospace;
     font-size: 2.4rem;
     letter-spacing: 2px;
     line-height: 112%;

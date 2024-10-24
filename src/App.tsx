@@ -9,6 +9,7 @@ import { CuritibaAndRegion } from "./components/CuritibaAndRegion/CuritibaAndReg
 import { FreeQuote } from "./components/FreeQuote/FreeQuote";
 import { EngineBrands } from "./components/EngineBrands/EngineBrands";
 import { Footer } from "./components/Footer/Footer";
+import { ButtonWhatsapp } from "./components/ButtonWhatsapp/ButtonWhatsapp";
 
 
 export function App() {
@@ -22,7 +23,7 @@ export function App() {
       <FreeQuote />
       <EngineBrands />
       <Footer />
-
+      <ButtonWhatsapp />
       <GlobalStyle />
     </ThemeProvider>
   )

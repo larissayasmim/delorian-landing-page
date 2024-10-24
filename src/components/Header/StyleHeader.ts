@@ -12,9 +12,9 @@ export const HeaderContainer = styled.header`
     font-family: 'Roboto', sans-serif;
     max-width: 1605px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 2rem 3rem;
     box-sizing: border-box;
-
+    
   };
 
   a img {
@@ -22,6 +22,11 @@ export const HeaderContainer = styled.header`
     height: 60px;
     display: block;
     margin-top: 1.2rem;
+
+    &:hover {
+        cursor: pointer;
+      }
+  
   };
 
   nav {
