@@ -325,12 +325,6 @@ export const ImageContainer = styled.div `
     top: -12%;  /* Distância do topo */
     right: 18%;  
   }
-
-  .imageMaisIcon{
-    margin-right: 14vw;
-   }
-
-
    
 }
 
@@ -342,7 +336,7 @@ export const ImageContainer = styled.div `
 
 
 export const ProblemSolutionIconMais = styled.div `
-   display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center; /* Alinha centralmente o conteúdo */
   gap: 1rem;
