@@ -11,10 +11,7 @@ import sinalControl from "../../assets/sinalControl.png";
 import mais from "../../assets/mais.png";
 import batida from "../../assets/batida.png";
 
-
-
 import { DelorianServicesContainer, ProblemSolutionContainer, ProblemSolution, TitleDelorianServices, ImageContainer, ProblemSolutionIconMais } from "./StyleDelorianServices";
-
 export function DelorianServices() {
   return (
     <DelorianServicesContainer>
@@ -22,9 +19,7 @@ export function DelorianServices() {
         <img src={raioAzul}   />
         <h1  id="#delorianResolve">Delorian resolve</h1>
       </TitleDelorianServices>
-      
       <ProblemSolutionContainer>
-        {/* problem1 */}
         <ProblemSolution>
         <ImageContainer>
           <img src={instalacao} className="imageInstalacao"/>
@@ -33,8 +28,6 @@ export function DelorianServices() {
           <h3>Instalação de motor em portões</h3>
           <p>Instalação especializada de motores  para portões deslizantes, basculantes e pivotantes.</p>
         </ProblemSolution>
-
-        {/* problem2 */}
         <ProblemSolution>
         <ImageContainer>
           <img src={naoFuncionando} className="imageInstalacao"/>
@@ -43,8 +36,6 @@ export function DelorianServices() {
           <h3>Motor não funcionando</h3>
           <p>Diagnóstico e reparos para motores de portões eletrônicos travados ou inoperantes.</p>
         </ProblemSolution>
-
-        {/* problem3 */}
         <ProblemSolution>
         <ImageContainer>
           <img src={semForca} className="imageInstalacao"/>
@@ -53,8 +44,6 @@ export function DelorianServices() {
           <h3>Motor sem Força</h3>
           <p>Correção de motores fracos por desgaste, sobrecarga ou falhas elétricas.</p>
         </ProblemSolution>
-
-        {/* problem4 */}
         <ProblemSolution>
           <ImageContainer>
             <img src={soUmLado} className="imageInstalacao"/>
@@ -63,8 +52,6 @@ export function DelorianServices() {
           <h3>Motor indo só para um lado</h3>
           <p>Ajustes para motores que só se movem para um lado.</p>
         </ProblemSolution>
-
-        {/* problem5 */}
         <ProblemSolution>
         <ImageContainer>
           <img src={barulhento} className="imageInstalacao"/>
@@ -73,19 +60,14 @@ export function DelorianServices() {
           <h3>Motor barulhento</h3>
           <p>Soluções para motores barulhentos com ruídos de atrito, rangidos ou estalos</p>
         </ProblemSolution>
-
-        {/* problem6 */}
         <ProblemSolution>
         <ImageContainer>
           <img src={batida} className="imageInstalacao"/>
           <img src={portBatendo} className="imageMotor"/>
         </ImageContainer>
-  
           <h3>Portão Batendo</h3>
           <p>Soluções para portões que batem ao fechar, causando impactos excessivos e ruídos.</p>
         </ProblemSolution>
-        
-        {/* problem7 */}
         <ProblemSolution>
         <ImageContainer>
           <img src={sinalControl} className="imageInstalacao"/>
@@ -94,9 +76,6 @@ export function DelorianServices() {
           <h3>Cadastro de controles</h3>
           <p>Facilitamos a programação e sincronização dos seus dispositivos.</p>
         </ProblemSolution>
-
-        {/* problem8 */}
-
         <ProblemSolution>
           <ProblemSolutionIconMais>
           <ImageContainer>
@@ -106,12 +85,8 @@ export function DelorianServices() {
             <p>Suporte personalizado para suas necessidades.</p>
           </ProblemSolutionIconMais>
         </ProblemSolution>
-
-
       </ProblemSolutionContainer>
-
     </DelorianServicesContainer>
-    
   );
 }
 
