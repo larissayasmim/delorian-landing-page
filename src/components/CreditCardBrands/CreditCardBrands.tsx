@@ -14,11 +14,7 @@ import sPay from "../../assets/creditCardBrands/sPay.svg";
 import elo from "../../assets/creditCardBrands/elo.svg";
 import americanExpress from "../../assets/creditCardBrands/americanExpress.svg";
 
-
-
-
 export function CreditCardBrands() {
- 
   return (
     <CreditCardBrandsContainer >
        <TitleCreditCardBrands>
@@ -33,8 +29,6 @@ export function CreditCardBrands() {
           <img className="item item5" src={maestro}></img>
           <img className="item item6" src={applePay}></img>
         </div>
-
-
         <div className="wrapper2">
           <img className="itemW2 item7" src={gPay}></img>
           <img className="itemW2 item8" src={hiper}></img>

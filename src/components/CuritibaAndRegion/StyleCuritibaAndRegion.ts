@@ -11,7 +11,6 @@ export const CuritibaContainer = styled.div`
     margin-bottom: 7rem;
     z-index: 999;
     margin-top: -14.98rem;
-
    h2 {
       font-family: 'Poppins', sans-serif;
       font-size: 50px;
@@ -19,8 +18,7 @@ export const CuritibaContainer = styled.div`
       line-height: 70px;
       color: white;
       padding: 60px 0 30px 80px;
-   }
-
+   };
    p {
       font-family: 'Roboto', monospace;
       font-weight: 400;
@@ -30,8 +28,7 @@ export const CuritibaContainer = styled.div`
       color: white;
       padding-left: 80px;
       padding-bottom: 20px;
-   }
-
+   };
    button {
       width: 86%;
     margin-left: 80px;
@@ -40,15 +37,11 @@ export const CuritibaContainer = styled.div`
     border-radius: 8px;
     font-size: 22px;
     font-weight: 70px;
-
-
     &:hover {
         cursor: pointer;
         background-color: ${props => props.theme['black-100']};
       }
-
-   }
-
+   };
    img {
     max-width: 100%;
     height: auto;
@@ -57,14 +50,9 @@ export const CuritibaContainer = styled.div`
     padding-top: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
-   }
-
-
-
-
-
+   };
    @media (max-width: 900px){
-   margin-top: -45%;
+    margin-top: -45%;
     width: 90%;
     display: grid;
     grid-template-columns: 1fr;
@@ -72,7 +60,6 @@ export const CuritibaContainer = styled.div`
     padding: 1rem 2rem 5rem;
     height: max-content;
     margin-bottom: 4rem;
-
    .item1 {
       grid-row: 2;
       display: flex;
@@ -80,7 +67,6 @@ export const CuritibaContainer = styled.div`
       align-items: center;
       max-width: max-content;
       margin: 0 auto;
-
       h2{
          text-align: center;
       }
@@ -88,21 +74,18 @@ export const CuritibaContainer = styled.div`
    .item2{
       grid-row: 1;
    }
-
    h2 {
       padding: 0;
       font-size: 26px;
       line-height: 28px;
       margin-bottom: 1rem;
    }
-
    p {
       padding: 0;
       font-size: 19px;
       line-height: 28px;
       margin-bottom: 1.4rem;
    }
-
    button {
       text-align: center;
     padding: 1.8rem;
@@ -111,17 +94,13 @@ export const CuritibaContainer = styled.div`
     height: auto;
     margin: 0;
    }
-
    img {
     max-width: 100%;
     height: 450px;
     width: auto;
     justify-items: center; 
    }
-
-}
-
-
+};
 @media (max-width: 600px) {
     margin-top: -62%;
     width: 90%;
@@ -131,7 +110,6 @@ export const CuritibaContainer = styled.div`
     padding: 1rem 2rem 5rem;
     height: max-content;
     margin-bottom: 4rem;
-
    .item1 {
       grid-row: 2;
       display: flex;
@@ -139,11 +117,9 @@ export const CuritibaContainer = styled.div`
       align-items: center;
       max-width: max-content;
       margin: 0 auto;
-
       h2{
          text-align: center;
       }
-
       p{
          max-width: 26ch;
       }
@@ -151,21 +127,18 @@ export const CuritibaContainer = styled.div`
    .item2{
       grid-row: 1;
    }
-
    h2 {
       padding: 0;
       font-size: 24px;
       line-height: 28px;
       margin-bottom: 1rem;
    }
-
    p {
       padding: 0;
       font-size: 18px;
       line-height: 28px;
       margin-bottom: 1.4rem;
    }
-
    button {
     padding: 1.5rem;
     font-size: 15px;
@@ -173,7 +146,6 @@ export const CuritibaContainer = styled.div`
     height: 30%;
     margin: 0;
    }
-
    img {
     max-width: 100%;
     height: auto;
@@ -183,12 +155,7 @@ export const CuritibaContainer = styled.div`
     padding-right: 0px;
     padding-bottom: 8px;
    }
-
-
-}
-
-
-
+};
 @media (max-width: 380px) {
    margin-top: -85%;
    padding: 1rem 2rem 4rem;
@@ -198,12 +165,9 @@ export const CuritibaContainer = styled.div`
     p{
       font-size: 16px;
     }
-
     button {
     padding: 1.5rem;
     font-size: 14px;
    }
-
-}
-
+};
 `
