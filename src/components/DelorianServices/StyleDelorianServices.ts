@@ -7,6 +7,7 @@ export const DelorianServicesContainer = styled.div`
   padding: 0 3rem;
 
 
+ 
   @media (max-width: 900px){
   padding: 1.8rem;
 }
@@ -87,17 +88,16 @@ export const TitleDelorianServices = styled.div`
 
 export const ProblemSolutionContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 4rem;
   grid-auto-flow: dense;
   padding-bottom: 100px;
  
 
 
-  /* @media (max-width: 2000px) {
-    gap: 1.5rem;
-
-  } */
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajuste para 300px */
+  }
 
   @media (max-width: 1000px) {
    gap: 2rem;
@@ -105,11 +105,13 @@ export const ProblemSolutionContainer = styled.div`
 
   @media (max-width: 900px){
   padding-bottom: 50px;
-}
+  grid-template-columns: 1fr;
+  justify-items: center;
+};
 
   @media (max-width: 600px) {
   justify-items: center;
-}
+};
 
 `
 export const ProblemSolution = styled.ul`
@@ -173,9 +175,10 @@ export const ProblemSolution = styled.ul`
 
 
 @media (max-width: 900px){
-  padding: 1.8rem;
+  padding: 6rem;
   img {
     height: 98px;
+    width: auto;
  
   }
 }
@@ -239,14 +242,40 @@ export const ImageContainer = styled.div `
   }
  */
 
+  @media (max-width: 1000px){
+ 
+
+ .imageInstalacao{
+   top: -14%;  /* Distância do topo */
+   right: 6%;  
+   height: 80px;
+   width: 80px;
+   padding: 18px;
+ }
+
+ .imageControle {
+  height: 140px;
+  margin-left: 10px;
+  margin-top: 2px;
+ }
+
+ .imageMaisIcon{
+   height: 80px;
+   width: 80px;
+   margin-right: 5vw;
+   margin-top: -8vw;
+  }
+}
+
+
   @media (max-width: 900px){
  
 
   .imageInstalacao{
-    top: -30%;  /* Distância do topo */
-    right: 20%;  
-    height: 75px;
-    width: 75px;
+    top: -29%;  /* Distância do topo */
+    right: 25%;  
+    height: 74px;
+    width: 74px;
     padding: 18px;
   }
 
@@ -269,17 +298,18 @@ export const ImageContainer = styled.div `
 
    
   .imageInstalacao{
-    top: -25%;  /* Distância do topo */
-    right: 25%;  
+    top: -12%;  /* Distância do topo */
+    right: 30%;  
     height: 55px;
     width: 55px;
     padding: 10px;
   }
 
   .imageControle {
-   height: 100px;
-   margin-left: 40px;
-   margin-top: 6px;
+   height: 120px;
+   width: auto;
+   margin-left: 10px;
+   margin-top: 8px;
   }
 
   .imageMaisIcon{
@@ -292,8 +322,8 @@ export const ImageContainer = styled.div `
    @media (max-width: 380px) {
        
   .imageInstalacao{
-    top: -20%;  /* Distância do topo */
-    right: 16%;  
+    top: -12%;  /* Distância do topo */
+    right: 18%;  
   }
 
   .imageMaisIcon{
@@ -312,32 +342,65 @@ export const ImageContainer = styled.div `
 
 
 export const ProblemSolutionIconMais = styled.div `
-  display: flex;
+   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Alinha centralmente o conteúdo */
   gap: 1rem;
   max-width: 100%;
   height: auto;
+  box-sizing: border-box;
 
   h3 {
     margin-top: 5rem;
     align-self: flex-start;
   }
 
-  img{
+  img {
+    margin-left: 8rem;
     margin-top: 2rem;
+    height: 80px;
+    width: auto;
+    align-items: center;
   }
 
-  @media (max-width: 1000px) {
-   
+  @media (max-width: 1200px) {
+    /* Alinha o bloco centralmente em telas menores */
+    align-items: center;
+    text-align: center;
+
     h3 {
-    margin-top: 4rem;
+      align-self: center; /* Centraliza o título */
+      margin-top: 3rem;
+    }
+
+    img {
+      margin: 1rem auto; /* Centraliza a imagem */
+    }
   }
 
-  img{
-    margin-top: -1rem;
+  @media (max-width: 900px) {
+    h3 {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    img {
+      margin-top: 1rem;
+      margin-right: 0;
+    }
   }
 
+  @media (max-width: 600px) {
+    h3 {
+      font-size: 18px;
+      margin-top: 1rem;
+    }
+
+    img {
+      height: 50px;
+      width: 50px;
+      margin-top: 0.5rem;
+    }
   }
+`;
   
-`

@@ -100,7 +100,7 @@ export function DelorianServices() {
         <ProblemSolution>
           <ProblemSolutionIconMais>
           <ImageContainer>
-            <img src={mais} className="imageMaisIcon imageInstalacao"/>
+            <img src={mais} className="imageMaisIcon "/>
           </ImageContainer>
             <h3>... e muito mais</h3>
             <p>Suporte personalizado para suas necessidades.</p>
