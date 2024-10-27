@@ -2,11 +2,10 @@ import { FreeQuoteContainer } from "./StyleFreeQuote";
 import raioTranslucido from "../../assets/raioTranslucido.png";
 
 export function FreeQuote () {
-  const phoneNumber = '+554185011909'; // Coloque seu número aqui
+  const phoneNumber = '+554185011909';
 
   const handleClickTalkWithUs = () => {
-    // Constrói o link para o WhatsApp
-    const whatsappLink = `https://wa.me/${phoneNumber}?text=Olá,%20equipe%20Delorian,%20gostaria%20de%20mais%20informações!`;
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=Olá,%20seja%20bem-vindo%20ao%20Delorian%20Pro!%20Logo,%20um%20de%20nossos%20atendentes%20entrará%20em%20contato%20com%20você.`;
     window.open(whatsappLink, '_blank'); 
   }
   return(
@@ -15,7 +14,7 @@ export function FreeQuote () {
       <img src={raioTranslucido} />
       <div>
         <h2>Seu portão está com problemas?</h2>
-        <p>Vamos até você! <b>Orçamento rápido e gratuito</b>. Fale conosco <br/>pelo whatsApp.</p>
+        <p>Vamos até você! <b>Orçamento rápido e gratuito</b>. Fale conosco pelo whatsApp.</p>
         <button onClick={handleClickTalkWithUs}>FALE CONOSCO</button>
       </div>
     </FreeQuoteContainer>

@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
  
+ 
   background-color: ${props => props.theme['white']};
-
+  
   div {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
@@ -27,7 +27,7 @@ export const HeaderContainer = styled.header`
         cursor: pointer;
       }
   
-  };
+  }; 
 
   nav {
     display: flex;
@@ -66,7 +66,7 @@ export const HeaderContainer = styled.header`
       border-radius: 0.5rem;
       font-weight: 700;
       letter-spacing: 1px;
-      font-size: 1.4rem;
+      font-size: 1.625rem;
       font-family: 'Roboto', monospace;
       background-color: ${props => props.theme['blue-200']};
       border-style: none;
@@ -83,6 +83,39 @@ export const HeaderContainer = styled.header`
 
 
 //responsiveness
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1400px){
+  nav{
+    gap: 1rem;
+
+    a{
+      font-size: 1.5rem;
+    }
+    button {
+      font-size: 1.5rem;
+      width:14rem;
+      height: 3.5rem;
+    }
+  }
+
+  a img {
+    width: 270px;
+    height: 55px;
+  }
+}
+
 
 
   @media (max-width: 1000px) {
@@ -125,26 +158,43 @@ export const HeaderContainer = styled.header`
   };
 
 
+  @media (max-width: 900px){
+
+    nav{
+      justify-content: center;
+    }
+  }
+
+
   @media (max-width: 600px) {
+
     div {
       gap: 2rem;
+      padding: 1.4rem 2rem;
     }
 
     nav {
-      margin-bottom: 1rem;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 0.4rem;
+      padding-left: 10px;
+      padding-right: 10px;
         a {
-          padding: 26px 30px;
-          font-size: 1rem;
+          padding: 20px 11px;
+          font-size: 0.8rem;
         }
 
         button {
-          font-size: 1rem;
-          width: 12rem;
-          height: 3.4rem;
+          font-size: 0.72rem;
+          width: 14rem;
+          height: 3rem;
+          margin-top: -0.1rem;
       }
 
     }
   };
+
+
  
 
 `

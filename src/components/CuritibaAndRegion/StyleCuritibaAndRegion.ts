@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const CuritibaContainer = styled.div`
     max-width: 1605px;
+    width: 80%;
     margin: 0 auto;
     background: ${props => props.theme['grey-200']};
     border-radius: 50px;
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
-
-    margin-bottom: 9rem;
-    z-index: 1;
-    margin-top: -16rem;
+    margin-bottom: 7rem;
+    z-index: 999;
+    margin-top: -14.98rem;
 
    h2 {
       font-family: 'Poppins', sans-serif;
@@ -33,12 +33,13 @@ export const CuritibaContainer = styled.div`
    }
 
    button {
+      width: 86%;
     margin-left: 80px;
     margin-bottom: 80px;
-    padding: 20px 9rem;
+    padding: 20px 1rem;
     border-radius: 8px;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 70px;
 
 
     &:hover {
@@ -49,11 +50,160 @@ export const CuritibaContainer = styled.div`
    }
 
    img {
-    width:40rem;
-    height: 30rem;
-    justify-items: start;
+    max-width: 100%;
+    height: auto;
+    width: 40rem;
+    justify-items: end;
     padding-top: 2rem;
-    padding-right: 4rem;
+    padding-right: 2rem;
     padding-bottom: 2rem;
    }
+
+
+
+
+
+   @media (max-width: 900px){
+   margin-top: -45%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 1rem 2rem 5rem;
+    height: max-content;
+    margin-bottom: 4rem;
+
+   .item1 {
+      grid-row: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: max-content;
+      margin: 0 auto;
+
+      h2{
+         text-align: center;
+      }
+   }
+   .item2{
+      grid-row: 1;
+   }
+
+   h2 {
+      padding: 0;
+      font-size: 26px;
+      line-height: 28px;
+      margin-bottom: 1rem;
+   }
+
+   p {
+      padding: 0;
+      font-size: 19px;
+      line-height: 28px;
+      margin-bottom: 1.4rem;
+   }
+
+   button {
+      text-align: center;
+    padding: 1.8rem;
+    font-size: 18px;
+    width: 98%;
+    height: auto;
+    margin: 0;
+   }
+
+   img {
+    max-width: 100%;
+    height: 450px;
+    width: auto;
+    justify-items: center; 
+   }
+
+}
+
+
+@media (max-width: 600px) {
+    margin-top: -62%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 1rem 2rem 5rem;
+    height: max-content;
+    margin-bottom: 4rem;
+
+   .item1 {
+      grid-row: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: max-content;
+      margin: 0 auto;
+
+      h2{
+         text-align: center;
+      }
+
+      p{
+         max-width: 26ch;
+      }
+   }
+   .item2{
+      grid-row: 1;
+   }
+
+   h2 {
+      padding: 0;
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 1rem;
+   }
+
+   p {
+      padding: 0;
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 1.4rem;
+   }
+
+   button {
+    padding: 1.5rem;
+    font-size: 15px;
+    width: 90%;
+    height: 30%;
+    margin: 0;
+   }
+
+   img {
+    max-width: 100%;
+    height: auto;
+    width: 30rem;
+    justify-items: center;
+    padding-top: 2rem;
+    padding-right: 0px;
+    padding-bottom: 8px;
+   }
+
+
+}
+
+
+
+@media (max-width: 380px) {
+   margin-top: -85%;
+   padding: 1rem 2rem 4rem;
+    h2{
+      font-size: 22px;
+    }
+    p{
+      font-size: 16px;
+    }
+
+    button {
+    padding: 1.5rem;
+    font-size: 14px;
+   }
+
+}
+
 `

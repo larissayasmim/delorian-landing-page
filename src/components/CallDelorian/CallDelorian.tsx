@@ -1,6 +1,7 @@
 import { CallDelorianContent } from "./StyleCallDelorian";
-import chamaDelorian from "../../assets/chamaDelorian.png";
+import chamaDelorian from "../../assets/chamaDelorian.svg";
 import moto from "../../assets/moto.png";
+
 
 
 export function CallDelorian () {
@@ -8,8 +9,9 @@ export function CallDelorian () {
     <CallDelorianContent>
       <div className="motoChamaDelorianContainer">
         <img src={chamaDelorian} className="chamaDeloriamImg" />
-        <img src={moto} className="motoImg"/>
+        <img src={moto} className="motoImg" />
       </div>
+
     </CallDelorianContent>
   )
 }

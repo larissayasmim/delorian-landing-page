@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 export const CreditCardBrandsContainer = styled.div`
 
-max-width: 1300px;
-margin: 0 auto;
-padding: 0 3rem;
+  max-width: 1605px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-bottom: 110px;
 
 
 .wrapper {
   position: relative;
-  height: 120px;
+  height: 125px;
   overflow: hidden;
   mask-image: linear-gradient(
    to right,
@@ -27,18 +28,21 @@ padding: 0 3rem;
 }
 
 .item {
-  width: 240px;
-  border: solid 1px ${props => props.theme['grey-130']};
+  width: 160px;
   padding: 1.5rem;
   border-radius: 8px;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1rem;
   position: absolute;
   left: max(calc(200px * 8), 100%);
   animation-name: scrollLeft;
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+
 }
+
+
+
 
 .item1 {
  animation-delay: calc(30s / 6 * (8 - 1) * -1);
@@ -71,23 +75,7 @@ padding: 0 3rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//segunda linha
 
 
 
@@ -106,12 +94,11 @@ padding: 0 3rem;
 
 @keyframes scrollLeft2 {
  to {
-   right: -300px;
+   right: -200px;
  }
 }
 .itemW2 {
-  width: 240px;
-  border: solid 1px ${props => props.theme['grey-130']};
+  width: 160px;
   padding: 1.5rem;
   border-radius: 8px;
   margin-bottom: 1.8rem;
@@ -154,5 +141,136 @@ padding: 0 3rem;
 }
 
 
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+  margin-bottom: 10px;
+
+padding-left: 2rem;
+padding-right: 2rem;
+
+.wrapper {
+
+height: 110px;
+}
+.item{
+ left: max(calc(200px * 5), 100%);
+ width: 100px;
+ margin-bottom: 0px;
+ padding: 0.2rem;
+}
+
+.itemW2{
+right: max(calc(200px * 5), 100%);
+width: 100px;
+ padding: 1rem;
+}
+
+}
+
+
+@media (max-width: 600px){
+  margin-bottom: 0px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+ 
+
+ .item{
+   left: max(calc(200px * 3), 100%);
+   width: 120px;
+   margin-bottom: 0;
+   padding: 1.6rem;
+ }
+
+ .itemW2{
+  right: max(calc(200px * 3), 100%);
+  width: 120px;
+   margin-bottom: 0;
+   padding: 1.6rem;
+ }
+}
+
+@media (max-width: 380px) {
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+ 
+  .wrapper {
+ 
+  height: 120px;
+}
+ .item{
+   left: max(calc(200px * 2), 100%);
+   width: 110px;
+   margin-bottom: 0;
+   padding: 1rem;
+ }
+
+ .itemW2{
+  right: max(calc(200px * 2), 100%);
+  width: 110px;
+
+   padding: 1rem;
+ }
+
+}
+
+
+
 `
+
+export const TitleCreditCardBrands = styled.div`
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 60px;
+  padding-top: 40px;
+
+ 
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: auto;
+    letter-spacing: 5%;
+    color: ${props => props.theme['blue-500']};
+    font-family: 'Poppins', sans-serif;
+   
+  }
+  img {
+    height: 5.5rem;
+    width: auto;
+  }
+  
+
+
+@media (max-width: 600px){
+  gap: 0.5rem;
+  margin-bottom: 0;
+  padding-top: 1px;
+  padding-bottom: 1rem;
+
+ 
+
+  h2 {
+    font-size: 1.5rem;
+  }
+  img {
+    height: 3rem;
+    width: auto;
+  }
+ 
+}
+
+
+`
+
  

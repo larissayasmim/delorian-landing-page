@@ -22,10 +22,10 @@ export function App() {
       <CallDelorian />
       <CuritibaAndRegion />
       <FreeQuote />
+      <CreditCardBrands />
       <EngineBrands />
       <Footer />
       <ButtonWhatsapp />
-      <CreditCardBrands />
       <GlobalStyle />
     </ThemeProvider>
   )
