@@ -10,25 +10,22 @@ import { FreeQuote } from "./components/FreeQuote/FreeQuote";
 import { EngineBrands } from "./components/EngineBrands/EngineBrands";
 import { Footer } from "./components/Footer/Footer";
 import { ButtonWhatsapp } from "./components/ButtonWhatsapp/ButtonWhatsapp";
-import { CreditCardBrands }  from "./components/CreditCardBrands/CreditCardBrands";
-
+import { CreditCardBrands } from "./components/CreditCardBrands/CreditCardBrands";
 
 export function App() {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <Header />
-      <Introduction />
-      <DelorianServices />
-      <CallDelorian />
-      <CuritibaAndRegion />
-      <FreeQuote />
-      <CreditCardBrands />
-      <EngineBrands />
-      <Footer />
-      <ButtonWhatsapp />
-      <GlobalStyle />
-    </ThemeProvider>
+      <ThemeProvider theme={defaultTheme}>
+        <Header />
+        <Introduction />
+        <DelorianServices />
+        <CallDelorian />
+        <CuritibaAndRegion />
+        <FreeQuote />
+        <CreditCardBrands />
+        <EngineBrands />
+        <Footer />
+        <ButtonWhatsapp /> 
+        <GlobalStyle />
+      </ThemeProvider>
   )
-}
-
-
+};

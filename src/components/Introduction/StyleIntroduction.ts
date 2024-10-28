@@ -26,11 +26,31 @@ export const IntroductionContainer = styled.div`
   margin: 0 auto;
   padding: 0 3rem;
   gap: 10rem;
+
+  
+@keyframes portaoMove{
+  from {
+    transform: translateX(100%); 
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);      
+    opacity: 1;
+  }}
+
   img {
     max-width: 100%;
     height: auto;
     width: 1300px;
     padding-top: 102px;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    transform: translateX(100%); 
+
+    & {
+      animation: portaoMove 1.5s ease-out forwards; 
+    }
+
   };  
   @media (max-width: 1500px) {   
     gap: 1rem;
