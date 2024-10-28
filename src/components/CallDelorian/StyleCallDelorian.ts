@@ -20,7 +20,6 @@ export const CallDelorianContent = styled.div`
   transform: translateX(-5%);
   padding-bottom: 20rem;
 };
-
 @media (min-width: 910px){
   height: 780px;
 };

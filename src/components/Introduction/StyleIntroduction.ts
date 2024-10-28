@@ -7,13 +7,13 @@ export const IntroductionContainerBg = styled.main`
     height: 50vw;
   };
   @media (max-width: 1000px){
-    height: 82vw;
+    height: 110vw;
   };
   @media (max-width: 900px){
-    height: 46rem;
+    height: 56rem;
   };
   @media (max-width: 600px){
-    height: 44rem;
+    height: 45rem;
   };
   @media (max-width: 380px) {
     height: 41rem;
@@ -63,15 +63,17 @@ export const IntroductionContainer = styled.div`
   flex-direction: column;
   gap: 2px;
   align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 10rem;
   img{
     display: flex;
     margin: 0 auto;
     padding-top: 1rem;
-    width: 60%;
+    width: 90%;
     height: auto;
     object-fit: cover;
     margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
 };
   @media (max-width: 600px) {   
