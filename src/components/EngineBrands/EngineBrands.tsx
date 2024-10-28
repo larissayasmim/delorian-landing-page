@@ -1,11 +1,10 @@
 import { EngineBrandsContainer } from "./StyleEngineBrands";
-import garen from "../../assets/garen.png"
-import intelbras from "../../assets/intelbras.png"
-import nice from "../../assets/nice.png"
-import peccinin from "../../assets/peccinin.png"
-import ppa from "../../assets/ppa.png"
-import rossi from "../../assets/rossi.png"
-
+import garen from "../../assets/garen.png";
+import intelbras from "../../assets/intelbras.png";
+import nice from "../../assets/nice.png";
+import peccinin from "../../assets/peccinin.png";
+import ppa from "../../assets/ppa.png";
+import rossi from "../../assets/rossi.png";
 
 export function EngineBrands () {
   return (
@@ -21,7 +20,6 @@ export function EngineBrands () {
       <img src={ppa}/>
       <img src={rossi} className="rossiLogo"/>
      </div>
-      
     </EngineBrandsContainer>
   )
-}
+};
