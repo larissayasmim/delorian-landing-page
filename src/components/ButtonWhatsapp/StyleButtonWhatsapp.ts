@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ButtonWhatsappContainer = styled.div`
     margin: 0 auto;
     padding: 0 3rem;
-  
     .whatsappIconFixed {
       position: fixed;
       padding: 4px;
@@ -16,15 +15,12 @@ export const ButtonWhatsappContainer = styled.div`
       border: solid 2px transparent;
       margin: 1rem;
       animation: blink 6s infinite;
-     
-
       &:hover {
         width: 80px; 
         height: 80px;
         animation: none;
       }
-  }
-
+  };
   @keyframes blink {
     0% {
       opacity: 2;
@@ -41,13 +37,8 @@ export const ButtonWhatsappContainer = styled.div`
       transform: scale(1);
       opacity: 2;
     }
-  }
-
-
-
-
+  };
   @media (max-width: 600px) {
-
     .whatsappIconFixed {
       bottom: 1vw; 
       right: 2vw;
@@ -55,7 +46,5 @@ export const ButtonWhatsappContainer = styled.div`
       height: 50px;
       position: fixed;
     }
- 
-  }
-
+  };
 `

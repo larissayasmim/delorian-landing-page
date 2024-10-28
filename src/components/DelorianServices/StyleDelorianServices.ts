@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const DelorianServicesContainer = styled.div`
   max-width: 1605px;
   margin: 0 auto;
@@ -65,6 +64,8 @@ export const ProblemSolutionContainer = styled.div`
   gap: 4rem;
   grid-auto-flow: dense;
   padding-bottom: 100px;
+
+
   @media (max-width: 1200px) {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   };
@@ -76,7 +77,6 @@ export const ProblemSolutionContainer = styled.div`
   grid-template-columns: 1fr;
   justify-items: center;
 };
-
   @media (max-width: 600px) {
   justify-items: center;
 };
@@ -115,6 +115,14 @@ export const ProblemSolution = styled.ul`
     letter-spacing: 1.8%;
     font-weight: 400;
   };
+
+
+  @media (min-width: 1124px) and (max-width: 1200px){
+    img{
+    height: 100px;
+    margin-bottom: 8px;
+   }
+  };
   @media (max-width: 1000px) {
     justify-content: center;
    img{
@@ -144,10 +152,21 @@ export const ProblemSolution = styled.ul`
     font-size: 14px;
   }
 };
-
+@media (min-width: 500px) and (max-width: 559px){
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 100%;
+  height: 350px;
+    h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+  }
+  };
 @media (max-width: 380px) {   
   padding: 1rem;
-}
+};
 `
 export const ImageContainer = styled.div `
    position: relative;
@@ -193,6 +212,23 @@ export const ImageContainer = styled.div `
    margin-top: -8vw;
   }
 };
+
+@media (min-width: 1124px) and (max-width: 1200px){
+  .imageInstalacao{
+   top: -14%;
+   right: 6%;  
+   height: 60px;
+   width: 60px;
+   padding: 18px;
+ }
+ .imageControle {
+  height: 120px;
+  margin-left: 10px;
+  margin-top: 2px;
+ }
+  };
+
+
   @media (max-width: 900px){
   .imageInstalacao{
     top: -29%;
@@ -239,11 +275,29 @@ export const ImageContainer = styled.div `
   }
 }
 };
+@media (min-width: 500px) and (max-width: 600px){
+    img{
+      width: 320px;
+      height: auto;
+    }
+    .imageInstalacao{
+      height: 70px;
+      width: auto;
+      padding: 20px;
+      top: -8px;
+    }
+    .imageControle {
+      height: 140px;
+      width: auto;
+      margin-left: 80px;
+      margin-top: 8px;
+  }
+  };
 `
 export const ProblemSolutionIconMais = styled.div `
   display: flex;
   flex-direction: column;
-  align-items: center; /* Alinha centralmente o conteúdo */
+  align-items: center; 
   gap: 1rem;
   max-width: 100%;
   height: auto;
@@ -252,6 +306,9 @@ export const ProblemSolutionIconMais = styled.div `
     margin-top: 5rem;
     align-self: flex-start;
   };
+  p{
+    text-align: start;
+  }
   img {
     margin-left: 8rem;
     margin-top: 2rem;
@@ -273,7 +330,7 @@ export const ProblemSolutionIconMais = styled.div `
   @media (max-width: 900px) {
     h3 {
       margin-top: 2rem;
-      text-align: center;
+      text-align: start;
     }
     img {
       margin-top: 1rem;
@@ -292,4 +349,3 @@ export const ProblemSolutionIconMais = styled.div `
     }
   };
 `
-  

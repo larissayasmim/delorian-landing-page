@@ -51,6 +51,47 @@ export const CuritibaContainer = styled.div`
     padding-right: 2rem;
     padding-bottom: 2rem;
    };
+@media(min-width:901px) and (max-width: 1500px){
+    margin-top: -20%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 2rem;
+    
+    .item1 {
+      padding-left: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      max-width: max-content;
+      margin: 0 auto;
+      h2{
+         text-align: start;
+      }
+      p{
+         text-align: start;
+      }
+   }
+   h2 {
+      padding: 0;
+      font-size: 26px;
+      line-height: 28px;
+      margin-bottom: 1rem;
+   }
+   p {
+      padding: 0;
+      font-size: 20px;
+      line-height: 23px;
+      margin-bottom: 1.4rem;
+   }
+   button {
+    padding: 1.5rem;
+    font-size: 15px;
+    width: 90%;
+    height: 30%;
+    margin: 0;
+   }
+};
    @media (max-width: 900px){
     margin-top: -45%;
     width: 90%;

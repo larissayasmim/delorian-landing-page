@@ -26,7 +26,7 @@ export function DelorianServices() {
           <img src={motor} className="imageMotor"/>
         </ImageContainer>
           <h3>Instalação de motor em portões</h3>
-          <p>Instalação especializada de motores  para portões deslizantes, basculantes e pivotantes.</p>
+          <p>Instalação especializada de motores para portões deslizantes, basculantes e pivotantes.</p>
         </ProblemSolution>
         <ProblemSolution>
         <ImageContainer>
@@ -41,7 +41,7 @@ export function DelorianServices() {
           <img src={semForca} className="imageInstalacao"/>
           <img src={motor} className="imageMotor"/>
         </ImageContainer>
-          <h3>Motor sem Força</h3>
+          <h3>Motor sem força</h3>
           <p>Correção de motores fracos por desgaste, sobrecarga ou falhas elétricas.</p>
         </ProblemSolution>
         <ProblemSolution>
@@ -58,14 +58,14 @@ export function DelorianServices() {
           <img src={motor} className="imageMotor"/>
         </ImageContainer>
           <h3>Motor barulhento</h3>
-          <p>Soluções para motores barulhentos com ruídos de atrito, rangidos ou estalos</p>
+          <p>Soluções para motores barulhentos com ruídos de atrito, rangidos ou estalos.</p>
         </ProblemSolution>
         <ProblemSolution>
         <ImageContainer>
           <img src={batida} className="imageInstalacao"/>
           <img src={portBatendo} className="imageMotor"/>
         </ImageContainer>
-          <h3>Portão Batendo</h3>
+          <h3>Portão batendo</h3>
           <p>Soluções para portões que batem ao fechar, causando impactos excessivos e ruídos.</p>
         </ProblemSolution>
         <ProblemSolution>
