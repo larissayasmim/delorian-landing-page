@@ -1,17 +1,25 @@
 import styled from "styled-components";
 
 export const EngineBrandsContainer = styled.div`
+position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 2rem;
   height: auto;
-  background-image: url('/backgroundAzul.png'); 
-  background-size: cover; 
-  background-position: center;
-  background-repeat: no-repeat; 
-  padding: 0 3rem;
+
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
   .title {
     max-width: 1605px;
     margin: 0 auto;
