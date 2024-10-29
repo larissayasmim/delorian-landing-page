@@ -3,7 +3,7 @@ import logoDelorian from "../../assets/logoDelorian.png";
 import { Link } from "react-scroll";
 
 export function Header () {
-  const phoneNumber = '+554185011909';
+  const phoneNumber = '+5594185011909';
   const handleClickTalkWithUs = () => {
     const whatsappLink = `https://wa.me/${phoneNumber}?text=Olá,%20tudo%20bem?%20Gostaria%20de%20mais%20informações,%20por%20favor.`;
     window.open(whatsappLink, '_blank'); 
