@@ -10,7 +10,7 @@ import cop from "../../assets/cop.svg";
 import { Link } from "react-scroll";
 
 export function Footer () {
-   const phoneNumber = '+554185011909';
+   const phoneNumber = '+5541985011909';
    const handleRedirectWhatsapp = () => {
     const whatsappLink = `https://wa.me/${phoneNumber}?text=Olá,%20tudo%20bem?%20Gostaria%20de%20mais%20informações,%20por%20favor.`;
     window.open(whatsappLink, '_blank'); 

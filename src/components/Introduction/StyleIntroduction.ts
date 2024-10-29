@@ -26,7 +26,7 @@ export const IntroductionContainer = styled.div`
   margin: 0 auto;
   padding: 0 3rem;
   gap: 10rem;
-
+  overflow: hidden;
   
 @keyframes portaoMove{
   from {
@@ -44,11 +44,11 @@ export const IntroductionContainer = styled.div`
     width: 1300px;
     padding-top: 102px;
     opacity: 0;
-    transition: opacity 0.5s ease-out;
+    transition: opacity 0.1s ease-out;
     transform: translateX(100%); 
 
     & {
-      animation: portaoMove 1.5s ease-out forwards; 
+      animation: portaoMove 0.6s ease-out forwards; 
     }
 
   };  
