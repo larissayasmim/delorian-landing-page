@@ -7,7 +7,7 @@ export const EngineBrandsContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: auto;
-  background-image: url('src/assets/backgroundAzul.png'); 
+  background-image: url('src/assets/portaoeMotor.png'); 
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat; 
