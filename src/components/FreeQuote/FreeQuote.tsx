@@ -2,9 +2,9 @@ import { FreeQuoteContainer } from "./StyleFreeQuote";
 import raioTranslucido from "../../assets/raioTranslucido.png";
 
 export function FreeQuote () {
-  const phoneNumber = '+5594185011909';
+  const phoneNumber = '+5541985011909'; 
   const handleClickTalkWithUs = () => {
-    const whatsappLink = `https://wa.me/${phoneNumber}?text=Olá,%20tudo%20bem?%20Gostaria%20de%20mais%20informações,%20por%20favor.`;
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=Olá!%20Tudo%20bem?%20Gostaria%20de%20mais%20informações.`;
     window.open(whatsappLink, '_blank'); 
   }
   return(
