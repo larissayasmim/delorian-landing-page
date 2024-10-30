@@ -22,20 +22,20 @@ export function CreditCardBrands() {
         <h2>Pague com</h2>
       </TitleCreditCardBrands>
       <div className="wrapper">
-          <img className="item item1" src={pix}></img>
-          <img className="item item2" src={visa}></img>
-          <img className="item item3" src={visaElectron}></img>
-          <img className="item item4" src={mastercard}></img>
-          <img className="item item5" src={maestro}></img>
-          <img className="item item6" src={applePay}></img>
+          <img className="item item1" src={pix} alt='pix'></img>
+          <img className="item item2" src={visa} alt='visa'></img>
+          <img className="item item3" src={visaElectron} alt='visa electron'></img>
+          <img className="item item4" src={mastercard} alt='mastercard'></img>
+          <img className="item item5" src={maestro} alt='maestro'></img>
+          <img className="item item6" src={applePay} alt='apple pay'></img>
         </div>
         <div className="wrapper2">
-          <img className="itemW2 item7" src={gPay}></img>
-          <img className="itemW2 item8" src={hiper}></img>
-          <img className="itemW2 item9" src={hipercard}></img>
-          <img className="itemW2 item10" src={sPay}></img>
-          <img className="itemW2 item11" src={elo}></img>
-          <img className="itemW2 item12" src={americanExpress}></img>
+          <img className="itemW2 item7" src={gPay} alt='google pay'></img>
+          <img className="itemW2 item8" src={hiper} alt='hiper'></img>
+          <img className="itemW2 item9" src={hipercard} alt='hipercard'></img>
+          <img className="itemW2 item10" src={sPay} alt='samsung pay'></img>
+          <img className="itemW2 item11" src={elo} alt='elo'></img>
+          <img className="itemW2 item12" src={americanExpress} alt='american express'></img>
         </div>
     </CreditCardBrandsContainer>
   );

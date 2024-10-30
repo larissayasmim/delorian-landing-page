@@ -16,12 +16,12 @@ export function EngineBrands () {
       <h3>Trabalhamos com as principais marcas</h3>
       </div>
      <div className="brands">
-      <img src={garen} className="garenLogo"/>
-      <img src={intelbras}/>
-      <img src={nice} className="niceLogo"/>
-      <img src={peccinin} className="peccininLogo"/>
-      <img src={ppa}/>
-      <img src={rossi} className="rossiLogo"/>
+      <img src={garen} className="garenLogo" alt="garen"/>
+      <img src={intelbras} alt="intelbras"/>
+      <img src={nice} className="niceLogo" alt="nice"/>
+      <img src={peccinin} className="peccininLogo" alt="peccini"/>
+      <img src={ppa} alt="ppa"/>
+      <img src={rossi} className="rossiLogo" alt="rossi"/>
      </div>
     </EngineBrandsContainer>
   )

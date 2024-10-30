@@ -11,7 +11,7 @@ export function Header () {
   return (
     <HeaderContainer>
       <div>
-        <Link to="#voltarInicio" smooth={true} duration={500} offset={-60} className="logoHeader" ><img src={logoDelorian} /></Link>       
+        <Link to="#voltarInicio" smooth={true} duration={500} offset={-60} className="logoHeader" ><img src={logoDelorian} alt="Delorian"/></Link>       
         <nav id="#voltarInicio">
             <Link to="#voltarInicio" smooth={true} duration={500} offset={-60} ><a href="./" >Início</a></Link> 
             <a href=""><Link to="#delorianResolve" smooth={true} duration={500} offset={-60} >Delorian resolve</Link></a>        

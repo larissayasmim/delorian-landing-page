@@ -6,8 +6,8 @@ export function CallDelorian () {
   return (
     <CallDelorianContent>
       <div className="motoChamaDelorianContainer">
-        <img src={chamaDelorian} className="chamaDeloriamImg" />
-        <img src={moto} className="motoImg" />
+        <img src={chamaDelorian} className="chamaDeloriamImg" alt="texto chama o delorian"/>
+        <img src={moto} className="motoImg" alt="imagem de uma moto com design que remete a algo futurístico com a logo da Delorian"/>
       </div>
     </CallDelorianContent>
   )

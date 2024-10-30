@@ -16,7 +16,7 @@ export function CuritibaAndRegion () {
       </div>
 
       <div className="item2">
-        <img src={mapaCuritibaRegiao} />
+        <img src={mapaCuritibaRegiao} alt="mapa de Curitiba e região, simbolizando o local de atendimento da Delorian"/>
       </div>
     </CuritibaContainer>
   )

@@ -11,12 +11,12 @@ export function Introduction() {
     <IntroductionContainerBg>
       <IntroductionContainer>
         <InfoContainer>
-          <h1>Automação e manutenção <br/>de portões</h1>
+          <h2>Automação e manutenção <br/>de portões</h2>
           <p>Instalação, conserto e eficiência.<br/>Solicite seu orçamento grátis!</p>
           <button onClick={handleClickMakeBudget}>Fazer orçamento</button>
         </InfoContainer> 
         <div>
-          <img src={portaoeMotor} alt="Imagem de um motor de portão eletrônico" className="motorImage"/>
+          <img src={portaoeMotor} alt="Imagem de portão de grade eletrônico cinza e um motor com cremalheira" className="motorImage"/>
         </div>    
       </IntroductionContainer>
     </IntroductionContainerBg>

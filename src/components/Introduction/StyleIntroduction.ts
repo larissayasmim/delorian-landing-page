@@ -114,7 +114,7 @@ export const IntroductionContainer = styled.div`
 };
 `
 export const InfoContainer = styled.div`
-  h1 {
+  h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 5rem;
     color: ${props => props.theme['white']};
@@ -149,7 +149,7 @@ export const InfoContainer = styled.div`
       } 
 };
 @media (max-width: 1600px) {   
-    h1 {
+    h2 {
     font-size: 4.5rem;
     padding-top: 5rem;
   };
@@ -164,7 +164,7 @@ export const InfoContainer = styled.div`
   };
 };
   @media (max-width: 1300px) {   
-  h1 {
+  h2 {
     font-size: 4rem;
     letter-spacing: 1px;
     line-height: 116%;
@@ -183,7 +183,7 @@ export const InfoContainer = styled.div`
   };
 };
   @media (max-width: 1200px) {   
-  h1 {
+  h2 {
     font-size: 4rem;
     padding-top: 4.5rem;
   };
@@ -200,7 +200,7 @@ export const InfoContainer = styled.div`
   };
 };
   @media (max-width: 1100px) {   
-  h1 {
+  h2 {
     font-size: 3rem;
     padding-top: 4.5rem;
   };
@@ -217,7 +217,7 @@ export const InfoContainer = styled.div`
 };
 @media (max-width:1000px) {
   text-align: center;
-  h1{
+  h2{
     font-size: 3rem;
     padding-top: 5rem;
   }
@@ -233,7 +233,7 @@ export const InfoContainer = styled.div`
   }
 };
 @media (max-width: 950px) {
-  h1{
+  h2{
     font-size: 3rem;
     padding-top: 4rem;
   }
@@ -250,7 +250,7 @@ export const InfoContainer = styled.div`
   }
 };
   @media (max-width: 700px) {
-  h1{
+  h2{
     font-size: 3.4rem;
   }
   p{
@@ -268,7 +268,7 @@ export const InfoContainer = styled.div`
   max-width: 95%;
   margin: auto 0;
   padding: 0.1rem;
-  h1 {
+  h2 {
     font-size: 2.4rem;
     padding-top: 2.5rem;
   };
@@ -281,7 +281,7 @@ export const InfoContainer = styled.div`
   };
 };
 @media (max-width: 380px) {
-    h1{
+    h2{
       padding-top: 1rem;
     }
 };
