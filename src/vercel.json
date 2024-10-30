@@ -1,5 +1,5 @@
 {
-  "redirects": [
-    { "source": "/qrcode", "destination": "/", "permanent": true }
+  "rewrites":  [
+    {"source": "/qrcode", "destination": "/"}
   ]
 }
