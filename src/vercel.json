@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/qrcode", "destination": "/", "permanent": true }
+  ]
+}
