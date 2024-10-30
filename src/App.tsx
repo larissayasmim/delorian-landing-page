@@ -10,7 +10,7 @@ export function App() {
         <BrowserRouter>
           <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/qrcode" element={<Navigate to="/" />} />
+          <Route path="/qrcode" element={<Home />} />
           </Routes>
         </BrowserRouter>
         <GlobalStyle />
